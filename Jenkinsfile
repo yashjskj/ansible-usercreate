@@ -4,7 +4,6 @@ pipeline {
     parameters {
         string(name: 'USERNAME', defaultValue: 'newuser', description: 'Username to create on the servers')
         text(name: 'SSH_PUBLIC_KEY', defaultValue: '', description: 'SSH Public Key to add for the user')
-        string(name: 'SERVERIP', defaultValue: 'serverip', description: 'Server ip where user will create')
     }
 
     environment {
