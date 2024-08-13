@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out the repository containing your playbook and inventory file
-                git url: 'https://your-repo-url.git'
+                git url: 'https://github.com/yashjskj/ansible-usercreate'
             }
         }
 
