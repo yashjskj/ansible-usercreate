@@ -7,8 +7,8 @@ pipeline {
     }
 
     environment {
-        ANSIBLE_INVENTORY = '/root/project/ansible-usercreate/inventory.ini'
-        ANSIBLE_PLAYBOOK = '/root/project/ansible-usercreate/create_user_with_ssh.yml'
+        ANSIBLE_INVENTORY = 'inventory.ini'
+        ANSIBLE_PLAYBOOK = 'create_user_with_ssh.yml'
     }
 
     stages {
